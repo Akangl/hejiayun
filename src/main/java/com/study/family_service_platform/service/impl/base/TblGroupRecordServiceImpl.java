@@ -1,9 +1,9 @@
 package com.study.family_service_platform.service.impl.base;
 
-import com.study.family_service_platform.bean.TblGroupRecord;
-import com.study.family_service_platform.mapper.TblGroupRecordMapper;
-import com.study.family_service_platform.service.base.TblGroupRecordService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.study.family_service_platform.bean.TblGroupRecord;
+import com.study.family_service_platform.mapper.basic.TblGroupRecordMapper;
+import com.study.family_service_platform.service.base.TblGroupRecordService;
 import org.springframework.stereotype.Service;
 
 /**

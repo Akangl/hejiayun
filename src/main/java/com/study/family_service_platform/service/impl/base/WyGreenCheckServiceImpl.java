@@ -1,9 +1,9 @@
 package com.study.family_service_platform.service.impl.base;
 
-import com.study.family_service_platform.bean.WyGreenCheck;
-import com.study.family_service_platform.mapper.WyGreenCheckMapper;
-import com.study.family_service_platform.service.base.WyGreenCheckService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.study.family_service_platform.bean.WyGreenCheck;
+import com.study.family_service_platform.mapper.basic.WyGreenCheckMapper;
+import com.study.family_service_platform.service.base.WyGreenCheckService;
 import org.springframework.stereotype.Service;
 
 /**

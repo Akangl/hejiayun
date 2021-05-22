@@ -1,9 +1,9 @@
 package com.study.family_service_platform.service.impl.base;
 
-import com.study.family_service_platform.bean.WyCommitteeMetting;
-import com.study.family_service_platform.mapper.WyCommitteeMettingMapper;
-import com.study.family_service_platform.service.base.WyCommitteeMettingService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.study.family_service_platform.bean.WyCommitteeMetting;
+import com.study.family_service_platform.mapper.basic.WyCommitteeMettingMapper;
+import com.study.family_service_platform.service.base.WyCommitteeMettingService;
 import org.springframework.stereotype.Service;
 
 /**

@@ -1,9 +1,9 @@
 package com.study.family_service_platform.service.impl.base;
 
-import com.study.family_service_platform.bean.WyRenewMsgRemindLog;
-import com.study.family_service_platform.mapper.WyRenewMsgRemindLogMapper;
-import com.study.family_service_platform.service.base.WyRenewMsgRemindLogService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.study.family_service_platform.bean.WyRenewMsgRemindLog;
+import com.study.family_service_platform.mapper.basic.WyRenewMsgRemindLogMapper;
+import com.study.family_service_platform.service.base.WyRenewMsgRemindLogService;
 import org.springframework.stereotype.Service;
 
 /**

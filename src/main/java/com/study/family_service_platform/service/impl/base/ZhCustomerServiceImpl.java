@@ -1,9 +1,9 @@
 package com.study.family_service_platform.service.impl.base;
 
-import com.study.family_service_platform.bean.ZhCustomer;
-import com.study.family_service_platform.mapper.ZhCustomerMapper;
-import com.study.family_service_platform.service.base.ZhCustomerService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.study.family_service_platform.bean.ZhCustomer;
+import com.study.family_service_platform.mapper.basic.ZhCustomerMapper;
+import com.study.family_service_platform.service.base.ZhCustomerService;
 import org.springframework.stereotype.Service;
 
 /**

@@ -1,9 +1,9 @@
 package com.study.family_service_platform.service.impl.base;
 
-import com.study.family_service_platform.bean.TblFunctionModel;
-import com.study.family_service_platform.mapper.TblFunctionModelMapper;
-import com.study.family_service_platform.service.base.TblFunctionModelService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.study.family_service_platform.bean.TblFunctionModel;
+import com.study.family_service_platform.mapper.basic.TblFunctionModelMapper;
+import com.study.family_service_platform.service.base.TblFunctionModelService;
 import org.springframework.stereotype.Service;
 
 /**

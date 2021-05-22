@@ -1,9 +1,9 @@
 package com.study.family_service_platform.service.impl.base;
 
-import com.study.family_service_platform.bean.FyReceiptMain;
-import com.study.family_service_platform.mapper.FyReceiptMainMapper;
-import com.study.family_service_platform.service.base.FyReceiptMainService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.study.family_service_platform.bean.FyReceiptMain;
+import com.study.family_service_platform.mapper.basic.FyReceiptMainMapper;
+import com.study.family_service_platform.service.base.FyReceiptMainService;
 import org.springframework.stereotype.Service;
 
 /**

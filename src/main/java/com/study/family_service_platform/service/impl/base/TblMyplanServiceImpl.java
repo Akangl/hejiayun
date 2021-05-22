@@ -1,9 +1,9 @@
 package com.study.family_service_platform.service.impl.base;
 
-import com.study.family_service_platform.bean.TblMyplan;
-import com.study.family_service_platform.mapper.TblMyplanMapper;
-import com.study.family_service_platform.service.base.TblMyplanService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.study.family_service_platform.bean.TblMyplan;
+import com.study.family_service_platform.mapper.basic.TblMyplanMapper;
+import com.study.family_service_platform.service.base.TblMyplanService;
 import org.springframework.stereotype.Service;
 
 /**

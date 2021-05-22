@@ -1,9 +1,9 @@
 package com.study.family_service_platform.service.impl.base;
 
-import com.study.family_service_platform.bean.TblDashboard;
-import com.study.family_service_platform.mapper.TblDashboardMapper;
-import com.study.family_service_platform.service.base.TblDashboardService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.study.family_service_platform.bean.TblDashboard;
+import com.study.family_service_platform.mapper.basic.TblDashboardMapper;
+import com.study.family_service_platform.service.base.TblDashboardService;
 import org.springframework.stereotype.Service;
 
 /**

@@ -1,9 +1,9 @@
 package com.study.family_service_platform.service.impl.base;
 
-import com.study.family_service_platform.bean.WyDutyManage;
-import com.study.family_service_platform.mapper.WyDutyManageMapper;
-import com.study.family_service_platform.service.base.WyDutyManageService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.study.family_service_platform.bean.WyDutyManage;
+import com.study.family_service_platform.mapper.basic.WyDutyManageMapper;
+import com.study.family_service_platform.service.base.WyDutyManageService;
 import org.springframework.stereotype.Service;
 
 /**

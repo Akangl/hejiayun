@@ -1,9 +1,9 @@
 package com.study.family_service_platform.service.impl.base;
 
-import com.study.family_service_platform.bean.TblQuick;
-import com.study.family_service_platform.mapper.TblQuickMapper;
-import com.study.family_service_platform.service.base.TblQuickService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.study.family_service_platform.bean.TblQuick;
+import com.study.family_service_platform.mapper.basic.TblQuickMapper;
+import com.study.family_service_platform.service.base.TblQuickService;
 import org.springframework.stereotype.Service;
 
 /**

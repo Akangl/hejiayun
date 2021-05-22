@@ -1,9 +1,9 @@
 package com.study.family_service_platform.service.impl.base;
 
-import com.study.family_service_platform.bean.WyEmailReceive;
-import com.study.family_service_platform.mapper.WyEmailReceiveMapper;
-import com.study.family_service_platform.service.base.WyEmailReceiveService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.study.family_service_platform.bean.WyEmailReceive;
+import com.study.family_service_platform.mapper.basic.WyEmailReceiveMapper;
+import com.study.family_service_platform.service.base.WyEmailReceiveService;
 import org.springframework.stereotype.Service;
 
 /**

@@ -1,9 +1,9 @@
 package com.study.family_service_platform.service.impl.base;
 
-import com.study.family_service_platform.bean.TblCustomType;
-import com.study.family_service_platform.mapper.TblCustomTypeMapper;
-import com.study.family_service_platform.service.base.TblCustomTypeService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.study.family_service_platform.bean.TblCustomType;
+import com.study.family_service_platform.mapper.basic.TblCustomTypeMapper;
+import com.study.family_service_platform.service.base.TblCustomTypeService;
 import org.springframework.stereotype.Service;
 
 /**

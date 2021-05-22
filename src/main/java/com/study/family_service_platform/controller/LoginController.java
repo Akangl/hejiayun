@@ -1,5 +1,8 @@
 package com.study.family_service_platform.controller;
 
+import com.study.family_service_platform.bean.TblUserRecord;
+import com.study.family_service_platform.service.LoginService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -16,9 +19,14 @@ import org.springframework.web.bind.annotation.RestController;
 
 public class LoginController {
 
+    @Autowired
+    private LoginService loginService;
+
     @RequestMapping("/login")
     public String login(@RequestParam("username") String username,
                         @RequestParam("password") String password) {
+
+        TblUserRecord tblUserRecord = loginService.login(username, password);
         System.out.println("username===" + username);
         System.out.println("password===" + password);
         return "";

@@ -1,9 +1,9 @@
 package com.study.family_service_platform.service.impl.base;
 
-import com.study.family_service_platform.bean.FcBuilding;
-import com.study.family_service_platform.mapper.FcBuildingMapper;
-import com.study.family_service_platform.service.base.FcBuildingService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.study.family_service_platform.bean.FcBuilding;
+import com.study.family_service_platform.mapper.basic.FcBuildingMapper;
+import com.study.family_service_platform.service.base.FcBuildingService;
 import org.springframework.stereotype.Service;
 
 /**

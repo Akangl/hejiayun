@@ -1,9 +1,9 @@
 package com.study.family_service_platform.service.impl.base;
 
-import com.study.family_service_platform.bean.TblEnvirSetting;
-import com.study.family_service_platform.mapper.TblEnvirSettingMapper;
-import com.study.family_service_platform.service.base.TblEnvirSettingService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.study.family_service_platform.bean.TblEnvirSetting;
+import com.study.family_service_platform.mapper.basic.TblEnvirSettingMapper;
+import com.study.family_service_platform.service.base.TblEnvirSettingService;
 import org.springframework.stereotype.Service;
 
 /**

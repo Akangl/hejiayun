@@ -1,9 +1,9 @@
 package com.study.family_service_platform.service.impl.base;
 
-import com.study.family_service_platform.bean.WyCleanRecord;
-import com.study.family_service_platform.mapper.WyCleanRecordMapper;
-import com.study.family_service_platform.service.base.WyCleanRecordService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.study.family_service_platform.bean.WyCleanRecord;
+import com.study.family_service_platform.mapper.basic.WyCleanRecordMapper;
+import com.study.family_service_platform.service.base.WyCleanRecordService;
 import org.springframework.stereotype.Service;
 
 /**

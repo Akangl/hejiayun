@@ -1,9 +1,9 @@
 package com.study.family_service_platform.service.impl.base;
 
-import com.study.family_service_platform.bean.TblEmailReceive;
-import com.study.family_service_platform.mapper.TblEmailReceiveMapper;
-import com.study.family_service_platform.service.base.TblEmailReceiveService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.study.family_service_platform.bean.TblEmailReceive;
+import com.study.family_service_platform.mapper.basic.TblEmailReceiveMapper;
+import com.study.family_service_platform.service.base.TblEmailReceiveService;
 import org.springframework.stereotype.Service;
 
 /**

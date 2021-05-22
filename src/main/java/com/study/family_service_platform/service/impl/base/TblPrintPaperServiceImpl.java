@@ -1,9 +1,9 @@
 package com.study.family_service_platform.service.impl.base;
 
-import com.study.family_service_platform.bean.TblPrintPaper;
-import com.study.family_service_platform.mapper.TblPrintPaperMapper;
-import com.study.family_service_platform.service.base.TblPrintPaperService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.study.family_service_platform.bean.TblPrintPaper;
+import com.study.family_service_platform.mapper.basic.TblPrintPaperMapper;
+import com.study.family_service_platform.service.base.TblPrintPaperService;
 import org.springframework.stereotype.Service;
 
 /**

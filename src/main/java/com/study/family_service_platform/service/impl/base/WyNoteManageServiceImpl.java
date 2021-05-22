@@ -1,9 +1,9 @@
 package com.study.family_service_platform.service.impl.base;
 
-import com.study.family_service_platform.bean.WyNoteManage;
-import com.study.family_service_platform.mapper.WyNoteManageMapper;
-import com.study.family_service_platform.service.base.WyNoteManageService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.study.family_service_platform.bean.WyNoteManage;
+import com.study.family_service_platform.mapper.basic.WyNoteManageMapper;
+import com.study.family_service_platform.service.base.WyNoteManageService;
 import org.springframework.stereotype.Service;
 
 /**

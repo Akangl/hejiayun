@@ -1,9 +1,9 @@
 package com.study.family_service_platform.service.impl.base;
 
-import com.study.family_service_platform.bean.WyFireCheck;
-import com.study.family_service_platform.mapper.WyFireCheckMapper;
-import com.study.family_service_platform.service.base.WyFireCheckService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.study.family_service_platform.bean.WyFireCheck;
+import com.study.family_service_platform.mapper.basic.WyFireCheckMapper;
+import com.study.family_service_platform.service.base.WyFireCheckService;
 import org.springframework.stereotype.Service;
 
 /**

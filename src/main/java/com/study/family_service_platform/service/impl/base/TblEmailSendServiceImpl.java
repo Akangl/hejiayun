@@ -1,9 +1,9 @@
 package com.study.family_service_platform.service.impl.base;
 
-import com.study.family_service_platform.bean.TblEmailSend;
-import com.study.family_service_platform.mapper.TblEmailSendMapper;
-import com.study.family_service_platform.service.base.TblEmailSendService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.study.family_service_platform.bean.TblEmailSend;
+import com.study.family_service_platform.mapper.basic.TblEmailSendMapper;
+import com.study.family_service_platform.service.base.TblEmailSendService;
 import org.springframework.stereotype.Service;
 
 /**

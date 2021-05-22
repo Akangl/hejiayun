@@ -1,9 +1,9 @@
 package com.study.family_service_platform.service.impl.base;
 
-import com.study.family_service_platform.bean.WyPictureManage;
-import com.study.family_service_platform.mapper.WyPictureManageMapper;
-import com.study.family_service_platform.service.base.WyPictureManageService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.study.family_service_platform.bean.WyPictureManage;
+import com.study.family_service_platform.mapper.basic.WyPictureManageMapper;
+import com.study.family_service_platform.service.base.WyPictureManageService;
 import org.springframework.stereotype.Service;
 
 /**

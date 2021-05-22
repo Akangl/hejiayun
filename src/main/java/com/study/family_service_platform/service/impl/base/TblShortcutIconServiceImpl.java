@@ -1,9 +1,9 @@
 package com.study.family_service_platform.service.impl.base;
 
-import com.study.family_service_platform.bean.TblShortcutIcon;
-import com.study.family_service_platform.mapper.TblShortcutIconMapper;
-import com.study.family_service_platform.service.base.TblShortcutIconService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.study.family_service_platform.bean.TblShortcutIcon;
+import com.study.family_service_platform.mapper.basic.TblShortcutIconMapper;
+import com.study.family_service_platform.service.base.TblShortcutIconService;
 import org.springframework.stereotype.Service;
 
 /**

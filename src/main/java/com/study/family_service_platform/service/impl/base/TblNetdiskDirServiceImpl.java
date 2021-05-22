@@ -1,9 +1,9 @@
 package com.study.family_service_platform.service.impl.base;
 
-import com.study.family_service_platform.bean.TblNetdiskDir;
-import com.study.family_service_platform.mapper.TblNetdiskDirMapper;
-import com.study.family_service_platform.service.base.TblNetdiskDirService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.study.family_service_platform.bean.TblNetdiskDir;
+import com.study.family_service_platform.mapper.basic.TblNetdiskDirMapper;
+import com.study.family_service_platform.service.base.TblNetdiskDirService;
 import org.springframework.stereotype.Service;
 
 /**

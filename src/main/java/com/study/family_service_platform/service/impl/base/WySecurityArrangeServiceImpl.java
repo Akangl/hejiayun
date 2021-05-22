@@ -1,9 +1,9 @@
 package com.study.family_service_platform.service.impl.base;
 
-import com.study.family_service_platform.bean.WySecurityArrange;
-import com.study.family_service_platform.mapper.WySecurityArrangeMapper;
-import com.study.family_service_platform.service.base.WySecurityArrangeService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.study.family_service_platform.bean.WySecurityArrange;
+import com.study.family_service_platform.mapper.basic.WySecurityArrangeMapper;
+import com.study.family_service_platform.service.base.WySecurityArrangeService;
 import org.springframework.stereotype.Service;
 
 /**

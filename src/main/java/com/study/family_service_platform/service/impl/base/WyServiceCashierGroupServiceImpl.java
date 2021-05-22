@@ -1,9 +1,9 @@
 package com.study.family_service_platform.service.impl.base;
 
-import com.study.family_service_platform.bean.WyServiceCashierGroup;
-import com.study.family_service_platform.mapper.WyServiceCashierGroupMapper;
-import com.study.family_service_platform.service.base.WyServiceCashierGroupService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.study.family_service_platform.bean.WyServiceCashierGroup;
+import com.study.family_service_platform.mapper.basic.WyServiceCashierGroupMapper;
+import com.study.family_service_platform.service.base.WyServiceCashierGroupService;
 import org.springframework.stereotype.Service;
 
 /**

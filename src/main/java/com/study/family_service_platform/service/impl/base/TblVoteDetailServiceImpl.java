@@ -1,9 +1,9 @@
 package com.study.family_service_platform.service.impl.base;
 
-import com.study.family_service_platform.bean.TblVoteDetail;
-import com.study.family_service_platform.mapper.TblVoteDetailMapper;
-import com.study.family_service_platform.service.base.TblVoteDetailService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.study.family_service_platform.bean.TblVoteDetail;
+import com.study.family_service_platform.mapper.basic.TblVoteDetailMapper;
+import com.study.family_service_platform.service.base.TblVoteDetailService;
 import org.springframework.stereotype.Service;
 
 /**

@@ -1,9 +1,9 @@
 package com.study.family_service_platform.service.impl.base;
 
-import com.study.family_service_platform.bean.WyCommitteeMembers;
-import com.study.family_service_platform.mapper.WyCommitteeMembersMapper;
-import com.study.family_service_platform.service.base.WyCommitteeMembersService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.study.family_service_platform.bean.WyCommitteeMembers;
+import com.study.family_service_platform.mapper.basic.WyCommitteeMembersMapper;
+import com.study.family_service_platform.service.base.WyCommitteeMembersService;
 import org.springframework.stereotype.Service;
 
 /**

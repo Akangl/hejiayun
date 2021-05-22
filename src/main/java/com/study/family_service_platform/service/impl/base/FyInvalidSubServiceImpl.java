@@ -1,9 +1,9 @@
 package com.study.family_service_platform.service.impl.base;
 
-import com.study.family_service_platform.bean.FyInvalidSub;
-import com.study.family_service_platform.mapper.FyInvalidSubMapper;
-import com.study.family_service_platform.service.base.FyInvalidSubService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.study.family_service_platform.bean.FyInvalidSub;
+import com.study.family_service_platform.mapper.basic.FyInvalidSubMapper;
+import com.study.family_service_platform.service.base.FyInvalidSubService;
 import org.springframework.stereotype.Service;
 
 /**

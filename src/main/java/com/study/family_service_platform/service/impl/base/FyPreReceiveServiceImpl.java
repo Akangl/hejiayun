@@ -1,9 +1,9 @@
 package com.study.family_service_platform.service.impl.base;
 
-import com.study.family_service_platform.bean.FyPreReceive;
-import com.study.family_service_platform.mapper.FyPreReceiveMapper;
-import com.study.family_service_platform.service.base.FyPreReceiveService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.study.family_service_platform.bean.FyPreReceive;
+import com.study.family_service_platform.mapper.basic.FyPreReceiveMapper;
+import com.study.family_service_platform.service.base.FyPreReceiveService;
 import org.springframework.stereotype.Service;
 
 /**

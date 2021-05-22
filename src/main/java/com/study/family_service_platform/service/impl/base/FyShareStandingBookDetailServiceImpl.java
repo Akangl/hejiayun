@@ -1,9 +1,9 @@
 package com.study.family_service_platform.service.impl.base;
 
-import com.study.family_service_platform.bean.FyShareStandingBookDetail;
-import com.study.family_service_platform.mapper.FyShareStandingBookDetailMapper;
-import com.study.family_service_platform.service.base.FyShareStandingBookDetailService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.study.family_service_platform.bean.FyShareStandingBookDetail;
+import com.study.family_service_platform.mapper.basic.FyShareStandingBookDetailMapper;
+import com.study.family_service_platform.service.base.FyShareStandingBookDetailService;
 import org.springframework.stereotype.Service;
 
 /**

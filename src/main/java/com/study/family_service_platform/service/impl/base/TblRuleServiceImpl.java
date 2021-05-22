@@ -1,9 +1,9 @@
 package com.study.family_service_platform.service.impl.base;
 
-import com.study.family_service_platform.bean.TblRule;
-import com.study.family_service_platform.mapper.TblRuleMapper;
-import com.study.family_service_platform.service.base.TblRuleService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.study.family_service_platform.bean.TblRule;
+import com.study.family_service_platform.mapper.basic.TblRuleMapper;
+import com.study.family_service_platform.service.base.TblRuleService;
 import org.springframework.stereotype.Service;
 
 /**

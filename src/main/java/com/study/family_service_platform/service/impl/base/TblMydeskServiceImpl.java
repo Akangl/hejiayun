@@ -1,9 +1,9 @@
 package com.study.family_service_platform.service.impl.base;
 
-import com.study.family_service_platform.bean.TblMydesk;
-import com.study.family_service_platform.mapper.TblMydeskMapper;
-import com.study.family_service_platform.service.base.TblMydeskService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.study.family_service_platform.bean.TblMydesk;
+import com.study.family_service_platform.mapper.basic.TblMydeskMapper;
+import com.study.family_service_platform.service.base.TblMydeskService;
 import org.springframework.stereotype.Service;
 
 /**

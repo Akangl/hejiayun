@@ -1,9 +1,9 @@
 package com.study.family_service_platform.service.impl.base;
 
-import com.study.family_service_platform.bean.WyEstateIncomeProject;
-import com.study.family_service_platform.mapper.WyEstateIncomeProjectMapper;
-import com.study.family_service_platform.service.base.WyEstateIncomeProjectService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.study.family_service_platform.bean.WyEstateIncomeProject;
+import com.study.family_service_platform.mapper.basic.WyEstateIncomeProjectMapper;
+import com.study.family_service_platform.service.base.WyEstateIncomeProjectService;
 import org.springframework.stereotype.Service;
 
 /**

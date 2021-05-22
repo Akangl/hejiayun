@@ -1,9 +1,9 @@
 package com.study.family_service_platform.service.impl.base;
 
-import com.study.family_service_platform.bean.WyOutProject;
-import com.study.family_service_platform.mapper.WyOutProjectMapper;
-import com.study.family_service_platform.service.base.WyOutProjectService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.study.family_service_platform.bean.WyOutProject;
+import com.study.family_service_platform.mapper.basic.WyOutProjectMapper;
+import com.study.family_service_platform.service.base.WyOutProjectService;
 import org.springframework.stereotype.Service;
 
 /**

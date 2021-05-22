@@ -1,9 +1,9 @@
 package com.study.family_service_platform.service.impl.base;
 
-import com.study.family_service_platform.bean.ZhRentContractCell;
-import com.study.family_service_platform.mapper.ZhRentContractCellMapper;
-import com.study.family_service_platform.service.base.ZhRentContractCellService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.study.family_service_platform.bean.ZhRentContractCell;
+import com.study.family_service_platform.mapper.basic.ZhRentContractCellMapper;
+import com.study.family_service_platform.service.base.ZhRentContractCellService;
 import org.springframework.stereotype.Service;
 
 /**

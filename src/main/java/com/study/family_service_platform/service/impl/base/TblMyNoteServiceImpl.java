@@ -1,9 +1,9 @@
 package com.study.family_service_platform.service.impl.base;
 
-import com.study.family_service_platform.bean.TblMyNote;
-import com.study.family_service_platform.mapper.TblMyNoteMapper;
-import com.study.family_service_platform.service.base.TblMyNoteService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.study.family_service_platform.bean.TblMyNote;
+import com.study.family_service_platform.mapper.basic.TblMyNoteMapper;
+import com.study.family_service_platform.service.base.TblMyNoteService;
 import org.springframework.stereotype.Service;
 
 /**

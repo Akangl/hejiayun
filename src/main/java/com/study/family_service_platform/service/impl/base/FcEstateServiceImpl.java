@@ -1,9 +1,9 @@
 package com.study.family_service_platform.service.impl.base;
 
-import com.study.family_service_platform.bean.FcEstate;
-import com.study.family_service_platform.mapper.FcEstateMapper;
-import com.study.family_service_platform.service.base.FcEstateService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.study.family_service_platform.bean.FcEstate;
+import com.study.family_service_platform.mapper.basic.FcEstateMapper;
+import com.study.family_service_platform.service.base.FcEstateService;
 import org.springframework.stereotype.Service;
 
 /**

@@ -1,9 +1,9 @@
 package com.study.family_service_platform.service.impl.base;
 
-import com.study.family_service_platform.bean.TblMessageCharge;
-import com.study.family_service_platform.mapper.TblMessageChargeMapper;
-import com.study.family_service_platform.service.base.TblMessageChargeService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.study.family_service_platform.bean.TblMessageCharge;
+import com.study.family_service_platform.mapper.basic.TblMessageChargeMapper;
+import com.study.family_service_platform.service.base.TblMessageChargeService;
 import org.springframework.stereotype.Service;
 
 /**

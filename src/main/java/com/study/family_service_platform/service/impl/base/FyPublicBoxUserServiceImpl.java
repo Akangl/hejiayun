@@ -1,9 +1,9 @@
 package com.study.family_service_platform.service.impl.base;
 
-import com.study.family_service_platform.bean.FyPublicBoxUser;
-import com.study.family_service_platform.mapper.FyPublicBoxUserMapper;
-import com.study.family_service_platform.service.base.FyPublicBoxUserService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.study.family_service_platform.bean.FyPublicBoxUser;
+import com.study.family_service_platform.mapper.basic.FyPublicBoxUserMapper;
+import com.study.family_service_platform.service.base.FyPublicBoxUserService;
 import org.springframework.stereotype.Service;
 
 /**

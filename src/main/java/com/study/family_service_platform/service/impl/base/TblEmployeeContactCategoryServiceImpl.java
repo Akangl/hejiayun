@@ -1,9 +1,9 @@
 package com.study.family_service_platform.service.impl.base;
 
-import com.study.family_service_platform.bean.TblEmployeeContactCategory;
-import com.study.family_service_platform.mapper.TblEmployeeContactCategoryMapper;
-import com.study.family_service_platform.service.base.TblEmployeeContactCategoryService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.study.family_service_platform.bean.TblEmployeeContactCategory;
+import com.study.family_service_platform.mapper.basic.TblEmployeeContactCategoryMapper;
+import com.study.family_service_platform.service.base.TblEmployeeContactCategoryService;
 import org.springframework.stereotype.Service;
 
 /**

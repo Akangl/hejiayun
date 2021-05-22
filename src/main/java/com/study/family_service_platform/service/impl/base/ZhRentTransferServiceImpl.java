@@ -1,9 +1,9 @@
 package com.study.family_service_platform.service.impl.base;
 
-import com.study.family_service_platform.bean.ZhRentTransfer;
-import com.study.family_service_platform.mapper.ZhRentTransferMapper;
-import com.study.family_service_platform.service.base.ZhRentTransferService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.study.family_service_platform.bean.ZhRentTransfer;
+import com.study.family_service_platform.mapper.basic.ZhRentTransferMapper;
+import com.study.family_service_platform.service.base.ZhRentTransferService;
 import org.springframework.stereotype.Service;
 
 /**

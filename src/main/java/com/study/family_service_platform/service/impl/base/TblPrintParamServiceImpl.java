@@ -1,9 +1,9 @@
 package com.study.family_service_platform.service.impl.base;
 
-import com.study.family_service_platform.bean.TblPrintParam;
-import com.study.family_service_platform.mapper.TblPrintParamMapper;
-import com.study.family_service_platform.service.base.TblPrintParamService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.study.family_service_platform.bean.TblPrintParam;
+import com.study.family_service_platform.mapper.basic.TblPrintParamMapper;
+import com.study.family_service_platform.service.base.TblPrintParamService;
 import org.springframework.stereotype.Service;
 
 /**

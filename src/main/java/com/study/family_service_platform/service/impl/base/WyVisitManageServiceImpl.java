@@ -1,9 +1,9 @@
 package com.study.family_service_platform.service.impl.base;
 
-import com.study.family_service_platform.bean.WyVisitManage;
-import com.study.family_service_platform.mapper.WyVisitManageMapper;
-import com.study.family_service_platform.service.base.WyVisitManageService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.study.family_service_platform.bean.WyVisitManage;
+import com.study.family_service_platform.mapper.basic.WyVisitManageMapper;
+import com.study.family_service_platform.service.base.WyVisitManageService;
 import org.springframework.stereotype.Service;
 
 /**

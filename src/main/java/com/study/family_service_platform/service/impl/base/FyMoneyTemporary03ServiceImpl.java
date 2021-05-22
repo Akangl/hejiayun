@@ -1,9 +1,9 @@
 package com.study.family_service_platform.service.impl.base;
 
-import com.study.family_service_platform.bean.FyMoneyTemporary03;
-import com.study.family_service_platform.mapper.FyMoneyTemporary03Mapper;
-import com.study.family_service_platform.service.base.FyMoneyTemporary03Service;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.study.family_service_platform.bean.FyMoneyTemporary03;
+import com.study.family_service_platform.mapper.basic.FyMoneyTemporary03Mapper;
+import com.study.family_service_platform.service.base.FyMoneyTemporary03Service;
 import org.springframework.stereotype.Service;
 
 /**
