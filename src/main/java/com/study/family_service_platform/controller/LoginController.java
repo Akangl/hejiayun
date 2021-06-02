@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * @author Wenkang.Zhou
  * @date 2021-05-14 22:09
+ * @description 登录功能
  */
 @RestController
 @RequestMapping("/auth")
