@@ -1,9 +1,9 @@
 package com.study.family_service_platform.bean;
 
-import com.baomidou.mybatisplus.annotation.IdType;
-import java.time.LocalDateTime;
-import com.baomidou.mybatisplus.annotation.TableId;
+import lombok.Data;
+
 import java.io.Serializable;
+import java.time.LocalDateTime;
 
 /**
  * <p>
@@ -13,9 +13,10 @@ import java.io.Serializable;
  * @author Wenkang.Zhou
  * @since 2021-05-14
  */
+@Data
 public class FyHistoryMoneyTemp implements Serializable {
 
-    private static final long serialVersionUID=1L;
+    private static final long serialVersionUID = 1L;
 
     /**
      * 房间id
@@ -62,91 +63,4 @@ public class FyHistoryMoneyTemp implements Serializable {
      */
     private String operatePerson;
 
-
-    public Integer getCellId() {
-        return cellId;
-    }
-
-    public void setCellId(Integer cellId) {
-        this.cellId = cellId;
-    }
-
-    public String getCellName() {
-        return cellName;
-    }
-
-    public void setCellName(String cellName) {
-        this.cellName = cellName;
-    }
-
-    public Double getBuildArea() {
-        return buildArea;
-    }
-
-    public void setBuildArea(Double buildArea) {
-        this.buildArea = buildArea;
-    }
-
-    public Double getPriceUnit() {
-        return priceUnit;
-    }
-
-    public void setPriceUnit(Double priceUnit) {
-        this.priceUnit = priceUnit;
-    }
-
-    public Double getMoney() {
-        return money;
-    }
-
-    public void setMoney(Double money) {
-        this.money = money;
-    }
-
-    public LocalDateTime getMoneyStartDate() {
-        return moneyStartDate;
-    }
-
-    public void setMoneyStartDate(LocalDateTime moneyStartDate) {
-        this.moneyStartDate = moneyStartDate;
-    }
-
-    public LocalDateTime getMoneyStopDate() {
-        return moneyStopDate;
-    }
-
-    public void setMoneyStopDate(LocalDateTime moneyStopDate) {
-        this.moneyStopDate = moneyStopDate;
-    }
-
-    public String getRemark() {
-        return remark;
-    }
-
-    public void setRemark(String remark) {
-        this.remark = remark;
-    }
-
-    public String getOperatePerson() {
-        return operatePerson;
-    }
-
-    public void setOperatePerson(String operatePerson) {
-        this.operatePerson = operatePerson;
-    }
-
-    @Override
-    public String toString() {
-        return "FyHistoryMoneyTemp{" +
-        "cellId=" + cellId +
-        ", cellName=" + cellName +
-        ", buildArea=" + buildArea +
-        ", priceUnit=" + priceUnit +
-        ", money=" + money +
-        ", moneyStartDate=" + moneyStartDate +
-        ", moneyStopDate=" + moneyStopDate +
-        ", remark=" + remark +
-        ", operatePerson=" + operatePerson +
-        "}";
-    }
 }

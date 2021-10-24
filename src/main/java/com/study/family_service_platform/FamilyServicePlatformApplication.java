@@ -16,5 +16,4 @@ public class FamilyServicePlatformApplication {
     public static void main(String[] args) {
         SpringApplication.run(FamilyServicePlatformApplication.class, args);
     }
-
 }

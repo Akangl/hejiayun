@@ -16,5 +16,12 @@ import org.springframework.stereotype.Component;
 @Component
 public interface TblUserRecordMapper extends BaseMapper<TblUserRecord> {
 
-
+    /**
+     * 登录
+     *
+     * @param username
+     * @param password
+     * @return
+     */
+    TblUserRecord login(String username, String password);
 }

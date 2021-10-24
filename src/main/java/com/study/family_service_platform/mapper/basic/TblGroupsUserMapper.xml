@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.study.family_service_platform.mapper.TblGroupsUserMapper">
+<mapper namespace="com.study.family_service_platform.mapper.basic.TblGroupsUserMapper">
 
     <!-- 通用查询映射结果 -->
     <resultMap id="BaseResultMap" type="com.study.family_service_platform.bean.TblGroupsUser">
-        <result column="group_id" property="groupId" />
-        <result column="obj_id" property="objId" />
-        <result column="obj_type" property="objType" />
+        <result column="group_id" property="groupId"/>
+        <result column="obj_id" property="objId"/>
+        <result column="obj_type" property="objType"/>
     </resultMap>
 
     <!-- 通用查询结果列 -->
     <sql id="Base_Column_List">
-        group_id, obj_id, obj_type
+        group_id
+        , obj_id, obj_type
     </sql>
 
 </mapper>

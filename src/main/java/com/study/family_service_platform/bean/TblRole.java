@@ -2,8 +2,10 @@ package com.study.family_service_platform.bean;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
-import java.time.LocalDateTime;
+import lombok.Data;
+
 import java.io.Serializable;
+import java.time.LocalDateTime;
 
 /**
  * <p>
@@ -13,9 +15,10 @@ import java.io.Serializable;
  * @author Wenkang.Zhou
  * @since 2021-05-14
  */
+@Data
 public class TblRole implements Serializable {
 
-    private static final long serialVersionUID=1L;
+    private static final long serialVersionUID = 1L;
 
     /**
      * 角色编号
@@ -54,72 +57,16 @@ public class TblRole implements Serializable {
     private LocalDateTime createDate;
 
 
-    public Integer getId() {
-        return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
-
-    public String getRoleName() {
-        return roleName;
-    }
-
-    public void setRoleName(String roleName) {
-        this.roleName = roleName;
-    }
-
-    public String getRoleType() {
-        return roleType;
-    }
-
-    public void setRoleType(String roleType) {
-        this.roleType = roleType;
-    }
-
-    public String getRolePrivileges() {
-        return rolePrivileges;
-    }
-
-    public void setRolePrivileges(String rolePrivileges) {
-        this.rolePrivileges = rolePrivileges;
-    }
-
-    public String getRoleRemark() {
-        return roleRemark;
-    }
-
-    public void setRoleRemark(String roleRemark) {
-        this.roleRemark = roleRemark;
-    }
-
-    public String getCreatePerson() {
-        return createPerson;
-    }
-
-    public void setCreatePerson(String createPerson) {
-        this.createPerson = createPerson;
-    }
-
-    public LocalDateTime getCreateDate() {
-        return createDate;
-    }
-
-    public void setCreateDate(LocalDateTime createDate) {
-        this.createDate = createDate;
-    }
-
     @Override
     public String toString() {
         return "TblRole{" +
-        "id=" + id +
-        ", roleName=" + roleName +
-        ", roleType=" + roleType +
-        ", rolePrivileges=" + rolePrivileges +
-        ", roleRemark=" + roleRemark +
-        ", createPerson=" + createPerson +
-        ", createDate=" + createDate +
-        "}";
+                "id=" + id +
+                ", roleName=" + roleName +
+                ", roleType=" + roleType +
+                ", rolePrivileges=" + rolePrivileges +
+                ", roleRemark=" + roleRemark +
+                ", createPerson=" + createPerson +
+                ", createDate=" + createDate +
+                "}";
     }
 }

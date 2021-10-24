@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.study.family_service_platform.mapper.TblUserSubCompanyMapper">
+<mapper namespace="com.study.family_service_platform.mapper.basic.TblUserSubCompanyMapper">
 
     <!-- 通用查询映射结果 -->
     <resultMap id="BaseResultMap" type="com.study.family_service_platform.bean.TblUserSubCompany">
-        <result column="user_id" property="userId" />
-        <result column="company_id" property="companyId" />
+        <result column="user_id" property="userId"/>
+        <result column="company_id" property="companyId"/>
     </resultMap>
 
     <!-- 通用查询结果列 -->
     <sql id="Base_Column_List">
-        user_id, company_id
+        user_id
+        , company_id
     </sql>
 
 </mapper>
