@@ -17,4 +17,9 @@ public class UnitTest {
     public void testStart() {
         System.out.println("Staring…………");
     }
+
+    @Test
+    public void testHello() {
+        System.out.println("hello");
+    }
 }
